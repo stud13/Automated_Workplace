@@ -1,4 +1,24 @@
 .body {
-  height: 10vh;
-  background-color: #eeeeee;
+  height: 6vh;
+  background-color: #728f72;
+}
+
+.parent-decorator {
+  padding-top: 1vh;
+}
+
+.add {
+  height: 2vh;
+  width: 50%;
+  background-color: green;
+}
+
+.delete {
+  height: 2vh;
+  width: 50%;
+  background-color: red;
+}
+
+.footer {
+  display: flex;
 }
