@@ -102,7 +102,7 @@ def library_obp_block(block_id: str) -> dict:
 )
 def library_obp_child_block(parent_block_id: str, child_block_id: str) -> dict:
     """
-    The endpoint to delete block in obp library by id
+    The endpoint to update/delete child block in parent by id
 
     :param parent_block_id: The id of the parent block
     :param child_block_id : The id of the child block to remove
