@@ -124,7 +124,7 @@ def library_obp_child_block(parent_block_id: str, child_block_id: str) -> dict:
         return {"block": obp_collection.find_one({"id": parent_block_id})}
 
     if request.method == "DELETE":
-        # get parent block and check last child
+        # get parent block and delete given child
         block = obp_collection.find_one({"id": parent_block_id})
         if len(block["blocks"]) == 1:
             return {"error": "Cannot delete last nested block from parent"}, 400
