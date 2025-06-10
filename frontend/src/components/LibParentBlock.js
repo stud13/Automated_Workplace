@@ -1,15 +1,18 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
-import '../css/libParentBlock.css';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const LibParentBlock = () => {
   return (
-    <Container className="parent-decorator">
-      <div className="body"></div>
-      <div className="footer">
-        <div className="add"></div>
-        <div className="delete"></div>
-      </div>
+    <Container className="library-decorator">
+      <Row>
+        <Col xs={12}>
+          <Row xs={12} className="library-body"></Row>
+          <Row>
+            <Col xs={8} className="library-btn-add"></Col>
+            <Col xs={4} className="library-btn-delete"></Col>
+          </Row>
+        </Col>
+      </Row>
     </Container>
   );
 };
