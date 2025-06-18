@@ -1,3 +1,29 @@
+/* ---------------------------------------------- APP SECTION*/
+
+body {
+  background-color: rgb(114, 143, 114);
+}
+
+.container-decorator {
+  padding-top: 1vh;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
+
+/* ---------------------------------------------- HEADER SECTION*/
+
+.header {
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.logo {
+  max-width: 19rem;
+  max-height: 3rem;
+}
+
+/* ---------------------------------------------- INDEX SECTION*/
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,3 +32,67 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+/* ---------------------------------------------- LIBRARY SECTION*/
+
+
+.library-body {
+  background-color: #728f72;
+}
+
+.library-btn-add {
+  height: 1.5vh;
+  background-color: green;
+}
+
+.library-btn-delete {
+  height: 1.5vh;
+  background-color: red;
+}
+
+.library-checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.library-checkbox-container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  background-color: #728f72;
+}
+
+.library-checkbox-decorator {
+  width: 20px;
+  background-color: #eee;
+}
+
+.library-container {
+  height: 50vh;
+  background-color: #eeeeee;
+}
+
+.library-decorator {
+  padding-top: 1vh;
+}
+
+/* ---------------------------------------------- LIB_PARENT_BLOCK SECTION*/
+
+
+/* ---------------------------------------------- LIB_CHILD_BLOCK SECTION*/
+
+
+/* ---------------------------------------------- TEMPLATE SECTION*/
+
+.template {
+  width: 100%;
+  height: 70vh;
+  background-color: #eeeeee;
+}
+
+@page {
+  size: A4;
+}
+
+
