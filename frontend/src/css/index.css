@@ -36,8 +36,8 @@ body {
 
 /* ---------------------------------------------- LIBRARY SECTION*/
 
+
 .library-body {
-  height: 5vh;
   background-color: #728f72;
 }
 
@@ -49,6 +49,23 @@ body {
 .library-btn-delete {
   height: 1.5vh;
   background-color: red;
+}
+
+.library-checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.library-checkbox-container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  background-color: #728f72;
+}
+
+.library-checkbox-decorator {
+  width: 20px;
+  background-color: #eee;
 }
 
 .library-container {
